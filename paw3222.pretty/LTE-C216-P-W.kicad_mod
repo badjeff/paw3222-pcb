@@ -1,0 +1,142 @@
+(footprint "LTE-C216-P-W"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -0.01 -2.42 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "bf0bfd08-68fc-479c-b9f1-1593f57f059a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "LTE-C216-P-W"
+		(at 0.01 2.56 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "016e4333-3d25-4d5c-a305-eb57852ff32c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5587cc12-1a32-4563-a3f2-b26f3a81bc17")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2201211430_Lite-On-LTE-C216-P-W_C2942980.pdf"
+		(at -0.17 5.86 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "871baba9-757f-445e-a67d-07b50f4d064f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "65975c0c-8459-4e59-9f1f-c8e1e5b74833")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -0.5 -0.75)
+		(end 0.5 0.3)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Cu")
+		(uuid "a6dfea22-4c48-4549-96a0-a26e94efda3b")
+	)
+	(fp_rect
+		(start -0.2 0.3)
+		(end 0.2 0.75)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Cu")
+		(uuid "01d19640-c36f-40bb-aa23-28a5e68b9bcf")
+	)
+	(fp_rect
+		(start -0.8 -1.6)
+		(end 0.8 1.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "Dwgs.User")
+		(uuid "1d2c0cab-7e46-459e-b2fd-e377a7a0725a")
+	)
+	(fp_text user "+"
+		(at 0.82 1.81 0)
+		(unlocked yes)
+		(layer "Dwgs.User")
+		(uuid "99f45070-7ef6-40d8-a347-ca81a0ef5ad4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.01 4.06 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "22f96f5b-ae6c-4977-bc0e-8f4f1280621a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 0 -1.3)
+		(size 1.6 0.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "b8008a83-b32b-4bb7-907e-4f608eb45133")
+	)
+	(pad "2" smd rect
+		(at 0 1.3)
+		(size 1.6 0.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "8cf4d536-2d7a-4522-8a72-b44a98e7e767")
+	)
+)
